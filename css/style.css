@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #000000;
+    color: #F6F6F6;
+}
+
+main {
+
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    padding: 4%;
+    gap: 82px;
+}
+
+.Section-1 {
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+    width: 50%;
+}
+
+.Section-1-Div-1 {
+    
+}
+
+.Section-1-Div-1-Title-1 {
+    font-family: "Krona One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.25rem;
+}
+.Section-1-Div-1-Title-2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #22D4FD;
+}
+
+.Section-1-Div-2-Text {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+}
+
+.Section-1-Div-2 {
+    margin-top: 5%;
+}
+
+.Section-1-Div-3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 5%;
+    text-align: center;
+    align-items: center;
+    gap: 30px;
+    
+}
+
+.Section-1-Div-3-Button-1 {
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    width: 50%;
+    border: 2px solid #22D4FD;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 21.5px 0;
+    flex-direction: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    gap: 20px;
+    
+}
+
+.Section-1-Div-3-Button-1:hover {
+    background-color: #ffffff;
+    color: black;
+}
+
+.Section-1-Div-3-Title{
+    font-family: 'Krona One', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+
+footer {
+    width: 100%;
+}
+
+.Footer-Section-1 {
+    display: flex;
+    justify-content: center;
+    background-color: #22D4FD;
+    padding: 2% 15%;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Section-2-Div {
+    padding: 20px;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: start;
+    background-color: transparent;
+    padding: 2% 15%;
+    gap: 50px;
+    
+}
+
+.navbar-nav-text-1 {
+    font-family: 'Krona One', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #22D4FD;
+}
+
+@media (max-width: 1200px) {
+    main {
+        flex-direction: column-reverse;
+    }
+
+    .Section-2-Div-img {
+        height: 0.01%;
+        width: 100%;
+    }
+    .navbar-nav-text-1 {
+        padding: 3% 15%;
+    }
+    .Section-1-Div-3-Button-1 {
+        width: 76%;
+    }
+
+    footer {
+        width: 106%;
+    }
+    
+}
